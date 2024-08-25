@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(212, 173, 224, 0.904);
+}
+
+.center {
+  text-align: center;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-color-6698FF {
+  color: #6698FF;
+}
+
+.nav {
+  text-align: center;
+}
+
+.img-width-500 {
+  width: 500px;
+  height: 750px;
+}
+
+.img-yin-yang {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes shake {
+0% {
+  transform: translate(0px, 0px);
+}
+25% {
+  transform: translate(5px, 5px);
+}
+50% {
+  transform: translate(0px, 0px);
+}
+75% {
+  transform: translate(-5px, -5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+
+.shake {
+animation-name: shake;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
+}
